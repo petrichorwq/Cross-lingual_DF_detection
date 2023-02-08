@@ -16,3 +16,39 @@ We trained our detection network with four types of protocols, including two cla
 ## Dataset
 
 This work is conducted on the DECRO dataset, which can be found [here](https://github.com/petrichorwq/DECRO-dataset). Deepfake cross-lingual evaluation dataset (DECRO) is constructed to evaluate the influence of language differences on deepfake detection.
+
+## Reference
+
+[1] [Rawnet2](https://github.com/asvspoof-challenge/2021)
+```bibtex
+@INPROCEEDINGS{tak2021rawnet2,
+  author={Tak, Hemlata and Patino, Jose and Todisco, Massimiliano and Nautsch, Andreas and Evans, Nicholas and Larcher, Anthony},
+  booktitle={ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={End-to-End anti-spoofing with RawNet2}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={6369-6373},
+  doi={10.1109/ICASSP39728.2021.9414234}}
+```
+
+[2] Jiang, Junguang, et al. "Transferability in deep learning: A survey." arXiv preprint arXiv:2201.05867 (2022).
+```bibtex
+@misc{jiang2022transferability,
+      title={Transferability in Deep Learning: A Survey}, 
+      author={Junguang Jiang and Yang Shu and Jianmin Wang and Mingsheng Long},
+      year={2022},
+      eprint={2201.05867},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{tllib,
+    author = {Junguang Jiang, Baixu Chen, Bo Fu, Mingsheng Long},
+    title = {Transfer-Learning-library},
+    year = {2020},
+    publisher = {GitHub},
+    journal = {GitHub repository},
+    howpublished = {\url{https://github.com/thuml/Transfer-Learning-Library}},
+}
+```
